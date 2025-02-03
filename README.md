@@ -1,1 +1,1 @@
-# Embedded-Linux---OCD
+# Embedded-Linux---ODC
