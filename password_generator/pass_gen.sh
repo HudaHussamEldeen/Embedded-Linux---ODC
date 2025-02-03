@@ -31,7 +31,7 @@ generate_password() {
         password+=${ALL:RANDOM%${#ALL}:1}
     done
 
-    # Shuffle the password to mix characters (using /dev/urandom for better randomness)
+    # Shuffle the password to mix characters
     echo "$password" | fold -w1 | shuf | tr -d '\n'
 }
 
